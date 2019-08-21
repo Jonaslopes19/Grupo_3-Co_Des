@@ -1,0 +1,94 @@
+{
+  "portfolio" : {
+    "design" : {
+      "categoria" : "utilizacao de design thinking",
+      "projetos" : {
+        "projeto1" : {
+          "descricao" : "projeto realizado durante o job rotation,para que os alunos aprendessem como utilizar as maquinas do fab lab",
+          "informacoes" : " o projeto foi construido com os seguintes materiais: mdf, placa de circuito, filamento de pla",
+          "titulo" : "luminaria de girafa"
+        },
+        "projeto2" : {
+          "descricao" : "o projeto e baseado na construcao de um expositor de produtos capaz preservar alimentos, tanto resfriados como quentes, alem de possuir um contador de produtos dentro do dispositivo",
+          "informacoes" : "programado em linguagem c++",
+          "titulo" : "contador de estoques automatizado"
+        },
+        "projeto3" : {
+          "descricao" : "aplicativo que ajuda empresarios em sua rotina",
+          "informacoes" : "trabalho desenvolvido até o final de novembro de 2019",
+          "titulo" : "criacao de aplicativo"
+        }
+      }
+    },
+    "eletronicos" : {
+      "categoria" : "utilizacao de circuitos",
+      "projetos" : {
+        "projeto1" : {
+          "descricao" : "projeto realizado durante o job rotation,para que os alunos aprendessem como utilizar as maquinas do fab lab",
+          "informacoes" : " o projeto foi construido com os seguintes materiais: mdf, placa de circuito, filamento de pla",
+          "titulo" : "luminaria de girafa"
+        },
+        "projeto2" : {
+          "descricao" : "o projeto e baseado na construcao de um expositor de produtos capaz preservar alimentos, tanto resfriados como quentes, alem de possuir um contador de produtos dentro do dispositivo",
+          "informacoes" : "programado em linguagem c++",
+          "titulo" : "contador de estoques automatizado"
+        },
+        "projeto3" : {
+          "descricao" : "uma estacao capaz de medir a pressao, altitude e temperatura de um local",
+          "informacoes" : "utilização de arduino para interpretar sensores analogicos",
+          "titulo" : "estacao meteorologica"
+        },
+        "projeto4" : {
+          "descricao" : "criacao de um dispositivo que utiliza pwm para controlar um motor",
+          "informacoes" : "o motor utilizado era o de 12v",
+          "titulo" : "controlador de motor"
+        }
+      }
+    },
+    "modelagem" : {
+      "categoria" : "previsao de sistemas e comportamentos",
+      "projetos" : {
+        "projeto1" : {
+          "descricao" : "analise de quantos salgados sao consumidos por dia na faculdade e que tipo de pessoas os compram",
+          "informacoes" : "foram utilizados dados dos alunos da anhembi morumbi e maua",
+          "titulo" : "projeto de estudo de dados"
+        },
+        "projeto2" : {
+          "descricao" : "estudo empirico de um pendulo simples",
+          "informacoes" : "aoi levado em consideracao a força do ar",
+          "titulo" : "modelagem de um pendulo simples"
+        },
+        "projeto3" : {
+          "descricao" : "apresentacao de um topico surpresa",
+          "informacoes" : "a equipe do projeto era composta por: jose, poseidon, neusa",
+          "titulo" : "projeto de calculo 2"
+        }
+      }
+    },
+    "programacao" : {
+      "categoria" : "criacao de programas",
+      "projetos" : {
+        "projeto1" : {
+          "descricao" : "jogo em que o jogador tem de desviar de carros vindo em sua direcao",
+          "informacoes" : "musicas retiradas do jogo top gear",
+          "titulo" : "speedretro"
+        },
+        "projeto2" : {
+          "descricao" : "analise de quantos salgados sao consumidos por dia na faculdade e que tipo de pessoas os compram",
+          "informacoes" : "foram utilizados dados dos alunos da anhembi morumbi e mauá",
+          "titulo" : "projeto de estudo de dados"
+        },
+        "projeto3" : {
+          "descricao" : "uma mini estacao capaz de medir a pressao, altitude e temperatura de um local",
+          "informacoes" : "utilizacao de arduino para interpretar sensores analogicos",
+          "titulo" : "estacao meteorologica"
+        },
+        "projeto4" : {
+          "descricao" : "aplicativo que ajuda empresarios em sua rotina",
+          "informacoes" : "trabalho desenvolvido ate o final de novembro de 2019",
+          "titulo" : "criacao de aplicativo"
+        }
+      }
+    }
+  }
+}
