@@ -97,8 +97,11 @@ body{
   font-size: 40px;
   text-align: center;
   color:rgb(255,255,255);
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> eb66c8498cbf854238ea47b3a3a2154dd24a26a6
 }
 
 .categoria-title-image {
@@ -148,7 +151,6 @@ body{
   top: 10px;
   width: 250px;
   height: 250px;
-<<<<<<< HEAD
   font-size: 25px;
 }
 .descricao-menu-item-text {
@@ -158,8 +160,11 @@ body{
   width: 300px;
   height: 250px;
   font-size: 17px;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> eb66c8498cbf854238ea47b3a3a2154dd24a26a6
   font-size: 20px
 }
 
@@ -215,5 +220,9 @@ color: rgb(255,255,255);
 
 body {
   background-color: rgb(0, 0, 0);
+<<<<<<< HEAD
 
 }
+=======
+}
+>>>>>>> eb66c8498cbf854238ea47b3a3a2154dd24a26a6
