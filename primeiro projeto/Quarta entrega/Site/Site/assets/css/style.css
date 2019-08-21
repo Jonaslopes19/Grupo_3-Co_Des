@@ -8,33 +8,40 @@ header {
 
 .categoria-title {
   position: absolute;
-  left: 10px;
+  left: center;
   top: 100px;
   width: 1024px;
   height: 250px;
   font-size: 40px;
   text-align: center;
+  
 }
 
 .categoria-title-image {
   width: 390px;
   height: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.books-menu {
+.projetos-menu {
   position: absolute;
   left: 10px;
   top: 280px;
   width: 1024px;
   text-align: left;
+  padding-top: 4px;
+  padding-bottom: 5px;
 }
 
-.books-menu-item {
-  display: inline-block;
+.projetos-menu-item {
+  display: block;
   position: relative;
   width: 500px;
   height: 250px;
-  background-color: gold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(245, 175, 125);
 }
 
 .books-menu-item-image {
@@ -43,6 +50,8 @@ header {
   top: 0px;
   width: 200px;
   height: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .books-menu-item-text {
@@ -51,4 +60,5 @@ header {
   top: 10px;
   width: 250px;
   height: 250px;
+  font-size: 20px
 }
