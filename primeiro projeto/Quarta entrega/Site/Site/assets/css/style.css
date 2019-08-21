@@ -5,16 +5,19 @@ header {
 
 
 /* categoria.html */
+body{
+	background-color: rgb(0, 0, 0); 
+}
+
 
 .categoria-title {
-  position: absolute;
+  position: relative;
   left: center;
   top: 100px;
-  width: 1024px;
-  height: 250px;
   font-size: 40px;
   text-align: center;
-  
+  color:rgb(255,255,255);
+
 }
 
 .categoria-title-image {
@@ -41,7 +44,9 @@ header {
   height: 250px;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: rgb(245, 175, 125);
+  background-color: rgb(214, 199, 199);
+  border-style: solid;
+  border-width: 1px;
 }
 
 .books-menu-item-image {
@@ -50,8 +55,10 @@ header {
   top: 0px;
   width: 200px;
   height: 250px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  border-style:  solid;
+  border-width: 1px;
+  border-color: rgb(0,0,0);
+
 }
 
 .books-menu-item-text {
@@ -60,5 +67,14 @@ header {
   top: 10px;
   width: 250px;
   height: 250px;
-  font-size: 20px
+  font-size: 25px;
+}
+.descricao-menu-item-text {
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  width: 300px;
+  height: 250px;
+  font-size: 17px;
+
 }
