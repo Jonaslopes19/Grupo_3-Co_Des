@@ -1,4 +1,4 @@
-
+/*
 body{
 	background-color: rgb(0, 0, 0); 
 }
@@ -85,8 +85,7 @@ body{
 
 
 
-/* categoria.html */
-
+/* categoria.html 
 .categoria-title {
   position: relative;
   left: center;
@@ -157,7 +156,7 @@ body{
   font-size: 20px
 }
 
-/*Jonas - projeto.html*/
+/*Jonas - projeto.html
 .paragraph1 {
 height: 50px;
 margin-left: 15px;
@@ -207,3 +206,4 @@ color: rgb(255,255,255);
   border-color: rgb(255,0,0);
 }
 
+*/
