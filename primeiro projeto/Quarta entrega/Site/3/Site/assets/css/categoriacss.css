@@ -1,0 +1,135 @@
+
+
+ /* categoria.html */ 
+
+.categoria-title {
+  padding-top:8rem; 
+  font-size: 4.5rem;
+  text-align: center;
+  color:rgb(0,0,0);
+  background-color: rgb(255,255,255) 
+}
+
+.projetos-menu {
+  display:grid;
+  grid-template-rows: 21rem 21rem 21rem;
+  grid-template-columns: 22rem 20rem; 
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.projetos-menu-item1 {
+  width: 42rem;
+  height:20rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-color: rgb(214, 199, 199);
+  border-style: solid;
+  border-width: 0.5rem;
+  grid-row-start:1; 
+  grid-row-end:1;
+  grid-column-start:1 ;
+  grid-column-end:3 ;
+
+}
+
+.projetos-menu-item2 {
+  width: 42rem;
+  height:20rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-color: rgb(214, 199, 199);
+  border-style: solid;
+  border-width: 0.5rem;
+  grid-row-start:2; 
+  grid-row-end:2;
+  grid-column-start:1 ;
+  grid-column-end:3 ;
+}
+.projetos-menu-item3 {
+  width: 42rem;
+  height:20rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-color: rgb(214, 199, 199);
+  border-style: solid;
+  border-width: 0.5rem;
+  grid-row-start:3; 
+  grid-row-end:3;
+  grid-column-start:1 ;
+  grid-column-end:3 ;
+}
+
+.books-menu-item-image1 {
+  width: 20rem;
+  height: 20rem;
+  border-style:  solid;
+  border-width: 0.1rem;
+  border-color: rgb(0,0,0);
+  grid-row-start:1; 
+  grid-row-end:1;
+  grid-column-start:1 ;
+  grid-column-end:1 ;
+
+}
+.books-menu-item-image2 {
+  width: 20rem;
+  height: 20rem;
+  border-style:  solid;
+  border-width: 0.1rem;
+  border-color: rgb(0,0,0);
+  grid-row-start:2; 
+  grid-row-end:2;
+  grid-column-start:1 ;
+  grid-column-end:1 ;
+}
+
+.books-menu-item-image3 {
+  width: 20rem;
+  height: 20rem;
+  border-style:solid;
+  border-width: 0.1rem;
+  border-color: rgb(0,0,0);
+  grid-row-start:3; 
+  grid-row-end:3;
+  grid-column-start:1 ;
+  grid-column-end:1 ;
+
+}
+.books-menu-item-text1 {
+  padding-top: 1rem;
+  font-size: 2rem;
+  grid-row-start:1; 
+  grid-row-end:1;
+  grid-column-start: 2;
+  grid-column-end:2 ;
+
+}
+.books-menu-item-text2 {
+  padding-top: 1rem;
+  font-size: 2rem;
+  grid-row-start:2; 
+  grid-row-end:2;
+  grid-column-start:2 ;
+  grid-column-end: 2;
+}
+.books-menu-item-text3 {
+  padding-top: 1rem;
+  font-size: 2rem;
+  grid-row-start:3; 
+  grid-row-end:3;
+  grid-column-start:2 ;
+  grid-column-end:2 ;
+}
+.descricao-menu-item-text1 {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+
+}
+.descricao-menu-item-text2 {
+  font-size: 1.3rem;
+}
+.descricao-menu-item-text3 {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+}
