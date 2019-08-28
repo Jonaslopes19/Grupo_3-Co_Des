@@ -12,9 +12,10 @@ body{
 
 .topo, .subtitulo{
 	color:white;
-	font-family: Courier, monospace;
+	font-family: 'Quattrocento', serif;
+  letter-spacing: 0.2rem;
 	min-width: 10px;
-  	text-align:center;
+  text-align:center;
 }
 
 .topo{
@@ -72,7 +73,7 @@ body{
 
  .p{
   color:black;
-  font-family: Century Gothic;
+  font-family: 'Tenor Sans', sans-serif;
   font-size:1.2em;
   background-color: white;
   text-align: center;
