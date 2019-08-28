@@ -18,11 +18,13 @@ body{
 .menu_list {
   display: inline;
   margin-right: 2.5rem;
+  font-family: 'Quatroccento', serif;
 }
 
 .menu_list1 {
   display: inline;
   margin-right: 5rem;
+  font-family: 'Quatroccento', serif;
 }
 
 .header_title {

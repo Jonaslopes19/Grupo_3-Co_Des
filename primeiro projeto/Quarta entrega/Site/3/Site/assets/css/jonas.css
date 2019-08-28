@@ -4,7 +4,6 @@ body{
 .girafas {
   height: 28rem;
   width: 26rem;
-  margin-top: 10rem;
   margin-bottom: 9rem;
 }
 
@@ -17,14 +16,35 @@ body{
 .white {
   color: rgb(255,255,255);
   margin-bottom: 4rem;
+  font-family: 'Quattrocento', serif;
+  font-size: 1rem;
+  
 }
 
 .white1 {
   color: rgb(255,255,255);
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
+  margin-left: 2rem;
+  font-family: 'Tenor Sans', sans-serif;
+}
 
 
+.titulo_página {
+  color: rgb(255,255,255);
+  font-family: 'Quattrocento', serif;
+  font-size: 6rem;
+
+  
+}
+
+.abertura{
+  display: flex;
+  justify-content: center;
+  color: rgb(255,255,255);
+  padding: 6rem;
+
+}
 
 /*Jonas - projeto.html*/
 /*
@@ -79,7 +99,7 @@ color: rgb(255,255,255);
 
 body {
   background-color: rgb(0, 0, 0);
-}*/
+  }*/
 
 
 

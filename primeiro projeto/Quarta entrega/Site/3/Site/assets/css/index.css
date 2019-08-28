@@ -14,12 +14,12 @@ body{
 	color:white;
 	font-family: 'Quattrocento', serif;
   letter-spacing: 0.2rem;
-	min-width: 10px;
+  min-width: 10px;
   text-align:center;
 }
 
 .topo{
-  	font-size:5em;
+ font-size:5em;
 }
 
 .subtitulo{
@@ -71,11 +71,11 @@ body{
   grid-row-end: 4;
 }
 
- .p{
+.p{
   color:black;
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Quattrocento', sans-serif;
   font-size:1.2em;
   background-color: white;
   text-align: center;
   margin-bottom: 2rem;
- }
+}

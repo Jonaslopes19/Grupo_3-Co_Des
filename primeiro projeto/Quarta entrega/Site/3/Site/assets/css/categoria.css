@@ -22,11 +22,11 @@
   color:white;
   font-family: 'Quattrocento', serif;
   min-width: 10px;
-    text-align:center;
+  text-align:center;
 }
 
 .topo{
-    font-size:5em;
+  font-size:5em;
 }
 
 .subtitulo{
@@ -40,7 +40,7 @@
   background-color: white;
   text-align: center;
   margin-bottom: 2rem;
- }
+}
 
 .projetos-menu {
   display:grid;
