@@ -16,13 +16,13 @@
 
 
 .menu_list {
-  display: inline;
+  display: none;
   margin-right: 2.5rem;
   font-family: 'Quatroccento', serif;
 }
 
 .menu_list1 {
-  display: inline;
+  display: none;
   margin-right: 5rem;
   font-family: 'Quatroccento', serif;
 }
@@ -60,3 +60,5 @@
 
 
 }
+
+/* class:hover */
