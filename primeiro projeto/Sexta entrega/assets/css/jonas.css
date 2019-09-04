@@ -5,6 +5,10 @@ body{
   height: 28rem;
   width: 26rem;
   margin-bottom: 9rem;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: rgb(255,0,0);
+
 }
 
 .container_girafas {
