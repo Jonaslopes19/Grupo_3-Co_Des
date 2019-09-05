@@ -1,10 +1,9 @@
 
 
 /* categoria.html */ 
-
 .categoria-title {
-  padding-top:8rem; 
-  font-size: 4.5rem;
+  padding-top:5rem; 
+  font-size: 1rem;
   text-align: center;
   background-color: #000000; 
 }
@@ -12,7 +11,7 @@
 .abertura{
   display: grid;
   margin: 0.2rem;
-  padding: 15rem;11
+  padding: 4rem;
 
 }
 
@@ -20,16 +19,16 @@
 .topo, .subtitulo{
   color: #ffffff;
   font-family: 'Quattrocento', serif;
-  min-width: 10px;
+  /*min-width: 0rem;*/
   text-align:center;
 }
 
 .topo{
-  font-size:4em;
+  font-size:2.7rem;
 }
 
 .subtitulo{
-  font-size:1.4em;
+  font-size:10%;
 }
 
 .p{
@@ -43,18 +42,18 @@
 
 .projetos-menu {
   display:grid;
-  grid-template-rows: 21rem 21rem 21rem;
-  grid-template-columns: 22rem 20rem; 
-  padding-top: 2rem;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 50% 50%; 
+  padding-top: 0rem;
   padding-bottom: 1rem;
 
 }
 
 .projetos-menu-item1 {
-  width: 42rem;
-  height:20rem;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  width: 95%;
+  height:100%;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
   border-style: solid;
   border-width: 0.5rem;
@@ -66,6 +65,187 @@
 }
 
 .projetos-menu-item2 {
+  width: 95%;
+  height:100%;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0.5rem;
+  grid-row-start:2; 
+  grid-row-end:2;
+  grid-column-start:1 ;
+  grid-column-end:3 ;
+}
+.projetos-menu-item3 {
+  width: 95%;
+  height:100%;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0.5rem;
+  grid-row-start:3; 
+  grid-row-end:3;
+  grid-column-start:1 ;
+  grid-column-end:3 ;
+}
+
+.books-menu-item-image1 {
+  width: 50%;
+  height: 100%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #9EA0FF;
+  grid-row-start:1; 
+  grid-row-end:1;
+  grid-column-start:1 ;
+  grid-column-end:1 ;
+
+}
+.books-menu-item-image2 {
+  width: 50%;
+  height: 100%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #9EA0FF;
+  grid-row-start:2; 
+  grid-row-end:2;
+  grid-column-start:1 ;
+  grid-column-end:1 ;
+}
+
+.books-menu-item-image3 {
+  width: 50%;
+  height: 100%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #9EA0FF;
+  grid-row-start:3; 
+  grid-row-end:3;
+  grid-column-start:1 ;
+  grid-column-end:1 ;
+
+}
+.books-menu-item-text1 {
+  padding-top: 0.6rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  font-family: 'Quattrocento', serif;
+  font-size: 0.98rem;
+  grid-row-start:1; 
+  grid-row-end:1;
+  grid-column-start: 2;
+  grid-column-end:2 ;
+
+}
+.books-menu-item-text2 {
+  padding-top: 0.6rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  font-family: 'Quattrocento', serif;
+  font-size: 0.98rem;
+  grid-row-start:2; 
+  grid-row-end:2;
+  grid-column-start:2 ;
+  grid-column-end: 2;
+}
+.books-menu-item-text3 {
+  padding-top: 0.6rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  font-family: 'Quattrocento', serif;
+  font-size: 0.98rem;
+  grid-row-start:3;
+  grid-row-end:3;
+  grid-column-start:2 ;
+  grid-column-end:2 ;
+}
+.descricao-menu-item-text1 {
+  font-size: 0.9rem;
+  padding-top: 0.2rem;
+  font-family: 'Tenor Sans', sans-serif;
+
+}
+.descricao-menu-item-text2 {
+  font-size: 0.9rem;
+  padding-top: 0rem;
+  font-family: 'Tenor Sans', sans-serif;
+}
+.descricao-menu-item-text3 {
+  padding-top: 0.2rem;
+  font-size: 0.9rem;
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+
+
+
+@media (min-width: 361px){
+  .categoria-title {
+  padding-top:8rem; 
+  font-size: 4.5rem;
+  text-align: center;
+  background-color: #000000; 
+  }
+
+  .abertura{
+  display: grid;
+  margin: 0.2rem;
+  padding: 15rem;
+
+  }
+
+
+  .topo, .subtitulo{
+  color: #ffffff;
+  font-family: 'Quattrocento', serif;
+  min-width: 10px;
+  text-align:center;
+  }
+
+  .topo{
+  font-size:4em;
+  }
+
+  .subtitulo{
+  font-size:1.4em;
+  }
+
+  .p{
+  color:black;
+  font-family: 'Quattrocento', serif;
+  font-size:1.2em;
+  background-color: #9EA0FF;
+  text-align: center;
+  margin-bottom: 2rem;
+  }
+
+  .projetos-menu {
+  display:grid;
+  grid-template-rows: 21rem 21rem 21rem;
+  grid-template-columns: 22rem 20rem; 
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+
+  }
+
+  .projetos-menu-item1 {
+  width: 42rem;
+  height:20rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0.5rem;
+  grid-row-start:1; 
+  grid-row-end:1;
+  grid-column-start:1 ;
+  grid-column-end:3 ;
+
+  }
+
+  .projetos-menu-item2 {
   width: 42rem;
   height:20rem;
   padding-top: 0.1rem;
@@ -77,8 +257,8 @@
   grid-row-end:2;
   grid-column-start:1 ;
   grid-column-end:3 ;
-}
-.projetos-menu-item3 {
+  }
+  .projetos-menu-item3 {
   width: 42rem;
   height:20rem;
   padding-top: 0.1rem;
@@ -90,9 +270,9 @@
   grid-row-end:3;
   grid-column-start:1 ;
   grid-column-end:3 ;
-}
+  }
 
-.books-menu-item-image1 {
+  .books-menu-item-image1 {
   width: 20rem;
   height: 20rem;
   border-style:  solid;
@@ -103,8 +283,8 @@
   grid-column-start:1 ;
   grid-column-end:1 ;
 
-}
-.books-menu-item-image2 {
+  }
+  .books-menu-item-image2 {
   width: 20rem;
   height: 20rem;
   border-style:  solid;
@@ -114,60 +294,61 @@
   grid-row-end:2;
   grid-column-start:1 ;
   grid-column-end:1 ;
-}
+  }
 
-.books-menu-item-image3 {
-  width: 20rem;
-  height: 20rem;
-  border-style:solid;
-  border-width: 0.1rem;
-  border-color: #000000;
-  grid-row-start:3; 
-  grid-row-end:3;
-  grid-column-start:1 ;
-  grid-column-end:1 ;
+  .books-menu-item-image3 {
+    width: 20rem;
+    height: 20rem;
+    border-style:solid;
+    border-width: 0.1rem;
+    border-color: #000000;
+    grid-row-start:3; 
+    grid-row-end:3;
+    grid-column-start:1 ;
+    grid-column-end:1 ;
 
-}
-.books-menu-item-text1 {
-  padding-top: 1rem;
-  font-family: 'Quattrocento', serif;
-  font-size: 2rem;
-  grid-row-start:1; 
-  grid-row-end:1;
-  grid-column-start: 2;
-  grid-column-end:2 ;
+  }
+  .books-menu-item-text1 {
+    padding-top: 1rem;
+    font-family: 'Quattrocento', serif;
+    font-size: 2rem;
+    grid-row-start:1; 
+    grid-row-end:1;
+    grid-column-start: 2;
+    grid-column-end:2 ;
 
-}
-.books-menu-item-text2 {
-  padding-top: 1rem;
-  font-size: 2rem;
-  font-family: 'Quattrocento', serif;
-  grid-row-start:2; 
-  grid-row-end:2;
-  grid-column-start:2 ;
-  grid-column-end: 2;
-}
-.books-menu-item-text3 {
-  padding-top: 1rem;
-  font-size: 2rem;
-  grid-row-start:3;
-  font-family: 'Quattrocento', serif;
-  grid-row-end:3;
-  grid-column-start:2 ;
-  grid-column-end:2 ;
-}
-.descricao-menu-item-text1 {
-  font-size: 1.3rem;
-  padding-top: 1rem;
-  font-family: 'Tenor Sans', sans-serif;
+  }
+  .books-menu-item-text2 {
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Quattrocento', serif;
+    grid-row-start:2; 
+    grid-row-end:2;
+    grid-column-start:2 ;
+    grid-column-end: 2;
+  }
+  .books-menu-item-text3 {
+    padding-top: 1rem;
+    font-size: 2rem;
+    grid-row-start:3;
+    font-family: 'Quattrocento', serif;
+    grid-row-end:3;
+    grid-column-start:2 ;
+    grid-column-end:2 ;
+  }
+  .descricao-menu-item-text1 {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    font-family: 'Tenor Sans', sans-serif;
 
-}
-.descricao-menu-item-text2 {
-  font-size: 1.3rem;
-  font-family: 'Tenor Sans', sans-serif;
-}
-.descricao-menu-item-text3 {
-  padding-top: 1rem;
-  font-size: 1.3rem;
-  font-family: 'Tenor Sans', sans-serif;
+  }
+  .descricao-menu-item-text2 {
+    font-size: 1.3rem;
+    font-family: 'Tenor Sans', sans-serif;
+  }
+  .descricao-menu-item-text3 {
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Tenor Sans', sans-serif;
+  }
 }
