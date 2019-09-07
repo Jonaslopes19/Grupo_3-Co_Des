@@ -18,6 +18,7 @@
   margin-bottom: 4rem;
   font-family: 'Quattrocento', serif;
   font-size: 1rem;
+  margin-left: 2rem;
   
 }
 
@@ -43,17 +44,57 @@
 .abertura{  
   display: grid;
   padding-top: 6.8rem;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
 }
 
-@media (min-width: 361px){
-
+@media (max-width: 360px){
 
     .abertura{  
       display: grid;
-      margin: 0.2rem;
-      padding: 15rem;
+      margin-left: 2rem;
+    }
 
 
+    .container_girafas {
+      display: flex;
+      justify-content: space-between;
 
+    }
+
+    .girafas {
+      border-style: double;
+      border-width: 0.5rem;
+      border-color: #EBB7A9;
+      height: 16rem;
+      width:  13rem;
+      margin: 0rem 0.5rem 4rem 0.5rem;
+    }
+
+    
+    .titulo_página {
+      padding-left: 2rem;
+      color: #ffffff;
+      font-family: 'Quattrocento', serif;
+      font-size: 4.5rem;    }
+
+    .white {
+      width: 22rem;
+      color: #ffffff;
+      letter-spacing: 0.1rem;
+      margin-bottom: 4rem;
+      font-family: 'Quattrocento', serif;
+      font-size: 1rem;
+      margin-left: 2rem;
+      text-align: justify;
+      line-height: 1.2rem;
+    }
+
+    .white1 {
+      color: #ffffff;
+      background-color: #9EA0FF;
+      width: 27rem;
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      margin-left: 2rem;
+      font-family: 'Tenor Sans', sans-serif;
     }
