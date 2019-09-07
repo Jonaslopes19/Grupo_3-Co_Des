@@ -1,30 +1,25 @@
 .body{
-  background-color: #000000; 
+  background-color: #000000); 
 }
-
-
 .girafas {
   height: 28rem;
   width: 26rem;
   margin-bottom: 3rem;
 }
 
-
 .container_girafas {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 5rem;
 }
 
 
 .white {
   color: #ffffff;
-  margin-left: 2rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   font-family: 'Quattrocento', serif;
   font-size: 1rem;
+  
 }
-
 
 .white1 {
   color: #ffffff;
@@ -39,51 +34,26 @@
 .titulo_página {
   color: #ffffff;
   font-family: 'Quattrocento', serif;
-  font-size: 6rem;  
+  font-size: 6rem;
+  text-align:center;
+
+  
 }
 
-.abertura{
-  display: flex;
-  justify-content: center;
-  padding: 4rem;
-  color: #ffffff;
+.abertura{  
+  display: grid;
+  padding-top: 6.8rem;
+  padding-bottom: 5rem;
 }
 
-@media(max-width: 360px){
-
-  .abertura{
-  }
-
-  .titulo_página {
-    position: relative;
-    top: 2.5rem;
-    color: #ffffff;
-    font-family: 'Quattrocento', serif;
-    font-size: 4rem;  
-  }
+@media (min-width: 361px){
 
 
-  .white {
-    color: #ffffff;
-    margin-left: 2rem;
-    margin-bottom: 6rem;
-    font-family: 'Quattrocento', serif;
-    font-size: 1.5rem;
-  }
+    .abertura{  
+      display: grid;
+      margin: 0.2rem;
+      padding: 15rem;
 
 
-  .white1 {
-    color: #ffffff;
-    background-color: #9EA0FF;
-    background-size: 200% 30%
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-    font-family: 'Tenor Sans', sans-serif;
-  }
 
-  .body{
-    background-color: #000000; 
-    size: 800px 1280px
-  }
-}
+    }
